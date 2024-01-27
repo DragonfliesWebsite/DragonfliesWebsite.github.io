@@ -1,0 +1,243 @@
+/*SCREEN SIZES*/
+@xs: (max-width: 575px);
+@sm: (min-width: 576px);
+@md: (min-width: 769px);
+@lg: (min-width: 992px);
+
+/*COLOURS*/
+@green: #9EC6A7;
+@dark: #5D655F;
+@peach: #F4D5C1;
+
+/*FONTS*/
+.Lora {
+    font-family: 'Lora', serif;
+}
+
+.DancingScript {
+    font-family: 'Dancing Script', cursive;
+}
+
+body {
+    position: relative;
+    color: @dark;
+    .Lora;
+
+    h1 {
+        text-transform: uppercase;
+    }
+}
+/*END FONTS*/
+
+.header {
+    background: @green;
+    color: #FFF;
+    padding: 10px;
+    &__border {
+        border: 1px solid @peach;
+        padding: 30px 0;
+    }
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        @media @md {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    &__title {
+        text-transform: uppercase;
+        font-size: 1.2em;
+    }
+
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        a {
+            color: #FFF;
+            text-decoration: none;
+            font-size: 1.7em;
+            transition: all 0.5s;
+            &:hover {
+                color: @peach;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__logo {
+        @media @md {
+            width: 60%;
+        }
+    }
+}
+
+.toplinks {
+    background: @dark;
+    &__inner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px 0;
+        margin: 0;
+    }
+    &__li {
+        list-style: none;
+    }
+
+    &__link {
+        color: #FFF;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        font-weight: 700;
+        text-decoration: none;
+        transition: all 0.5s;
+        &:hover, &:active, &:focus {
+            text-decoration: underline;
+            color: @peach;
+        }
+    }
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    &__img {
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        &:before {
+            content: "";
+            padding-top: 50%;
+        }
+    }
+}
+
+.main-content {
+    padding: 50px 0 30px;
+
+    h1 {
+        text-align: center;
+        color: @green;
+        span {
+            .DancingScript;
+            text-transform: none;
+            color: @dark;
+        }
+    }
+    h2 {
+        color: @green;
+    }
+    a {
+        color: @green;
+    }
+}
+
+.green-section {
+    background: @green;
+    padding: 60px 0;
+    font-size: 20px;
+    
+    img {
+        border: 2px solid @peach;
+        padding: 10px;
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    h3 {
+        //text-transform: uppercase;
+        font-size: 42px;
+        color: @peach;
+        .DancingScript;
+    }
+
+    &__left {
+        position: relative;
+
+        &-2 {
+            text-align: right;
+            margin: auto 20px;
+        }
+    }
+
+    &__right {
+        margin: auto 20px;
+    }
+}
+
+.gallery {
+    padding: 30px 0;
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        margin: 20px 0;
+    }
+    .slick-slide {
+        margin: 0 20px;
+        &:before {
+            content: "";
+            padding-top: 133.3%;
+        }
+    }
+}
+
+.footer {
+    background: @green;
+    color: #FFF;
+    padding: 50px 0 10px;
+
+    .copyright {
+        font-size: 0.7em;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    a, p {
+        color: #FFF;
+        font-size: 1.3em;
+        transition: all 0.5s;
+        text-decoration: none;
+    }
+
+    a {
+        &:hover {
+            color: @peach;
+            text-decoration: underline;
+        }
+    }
+
+    h3 {
+        //color: @peach;
+    }
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        @media @md {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
+    &__logo {
+        width: 100%;
+        @media @md {
+            width: 60%;
+        }
+    }
+
+    &__col {
+        display: flex;
+        flex-direction: column;
+    }
+}
