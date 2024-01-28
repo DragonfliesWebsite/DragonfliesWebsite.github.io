@@ -58,7 +58,7 @@ body h1 {
 }
 @media (min-width: 769px) {
   .header__logo {
-    width: 60%;
+    width: 90%;
   }
 }
 .toplinks {
@@ -201,7 +201,7 @@ body h1 {
 }
 @media (min-width: 769px) {
   .footer__logo {
-    width: 60%;
+    width: 80%;
   }
 }
 .footer__col {
