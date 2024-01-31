@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "jquery": "^3.7.1",
+    "nodemailer": "^6.9.8",
     "slick-carousel": "^1.8.1"
   }
 }

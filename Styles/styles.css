@@ -110,6 +110,9 @@ body h1 {
   content: "";
   padding-top: 50%;
 }
+.contact {
+  background: #9EC6A7;
+}
 .main-content {
   padding: 50px 0 30px;
 }
@@ -138,6 +141,11 @@ body h1 {
   padding: 10px;
   width: 100%;
   margin: 20px 0;
+  object-fit: cover;
+}
+.green-section img:before {
+  content: "";
+  padding-top: 100%;
 }
 .green-section h3 {
   font-size: 42px;
@@ -204,7 +212,7 @@ body h1 {
 @media (min-width: 769px) {
   .footer__inner {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 }
 .footer__logo {
