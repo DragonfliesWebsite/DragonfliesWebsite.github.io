@@ -71,10 +71,10 @@ body h1 {
 .toplinks__inner {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   padding: 20px 0;
-  margin: 0;
+  margin: 0 10px;
 }
 .toplinks__li {
   list-style: none;
@@ -186,7 +186,11 @@ body h1 {
 .footer {
   background: #9EC6A7;
   color: #FFF;
+  padding: 15px;
+}
+.footer__border {
   padding: 50px 0 10px;
+  border: 1px solid #F4D5C1;
 }
 .footer .copyright {
   font-size: 0.7em;
