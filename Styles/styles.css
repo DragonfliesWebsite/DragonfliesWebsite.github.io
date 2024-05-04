@@ -237,6 +237,9 @@ body h1 {
 .gallery-page__inner {
   padding: 30px 0;
 }
+.gallery-page__inner h3 {
+  color: #9EC6A7;
+}
 .gallery-page__image {
   width: 100%;
   object-fit: cover;
