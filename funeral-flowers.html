@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dragonflies Flower Shop</title>
+    <meta name="title" content="Welcome to Dragonflies - The Only Destination for Flowers in Glossop" />
+    <meta name="description" content="Discover a world of exquisite floral arrangements at Dragonflies in Glossop. From stunning bouquets to elegant centerpieces, we're your go-to flower shop for all occasions. Reach out today!" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="/Styles/styles.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="canonical" href="https://dragonfliesflowers.co.uk" />
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" href="/styles/theme.js"></script>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+        <div class="header__border">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__logo-col">
+                        <a href="/">
+                            <img class="header__logo" src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1706462003/dragonflies-logo_1x_djp1rk.png" srcset="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1706462003/dragonflies-logo_1x_djp1rk.png 1x, https://res.cloudinary.com/dbxnu1kgv/image/upload/v1706462003/dragonflies-logo_2x_jztsdv.png 2x" alt="Dragonflies Flower Shop Logo" />
+                        </a>
+                    </div>
+                    <div class="header__contact">
+                        <h3 class="header__title">Contact Us Today</h3>
+                        <a href="tel:07863387285" class="header__phone">
+                            07863 387 285
+                        </a>
+                        <a href="mailto:info@dragonfliesflowers.co.uk" class="header__email">
+                            info@dragonfliesflowers.co.uk
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="toplinks">
+        <div class="container">
+            <ul class="toplinks__inner">
+                <li class="toplinks__li">
+                    <a href="/" class="toplinks__link">Home</a>
+                </li>
+                <li class="toplinks__li">
+                    <a type="button" id="DropdownMenu" class="toplinks__link toplinks__dropdown" data-bs-toggle="dropdown" aria-expanded="false">Occasions</a>
+                    <ul class="dropdown-menu" aria-labelledby="DropdownMenu">
+                        <li>
+                            <a class="toplinks__dropdown-link dropdown-item" href="/funeral-flowers">Funeral Flowers</a>
+                        </li>
+                        <li>
+                            <a class="toplinks__dropdown-link dropdown-item" href="/wedding-flowers">Wedding Flowers</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="toplinks__li">
+                    <a href="/celebrate-mothers-day-with-dragonflies" class="toplinks__link">News</a>
+                </li>
+                <li class="toplinks__li">
+                    <a href="/gallery" class="toplinks__link">Gallery</a>
+                </li>
+                <li class="toplinks__li">
+                    <a href="/contact-us" class="toplinks__link">Contact Us</a>
+                </li>
+                <li class="toplinks__li">
+                    <a href="#ContactForm" class="toplinks__link">Order Now</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="main-content">
+        <div class="container">
+            <h1>Funeral Flowers Gallery</h1>
+            <p>At <strong>Dragonflies Flowers</strong>, we understand the importance of saying goodbye with beauty, care, and dignity. As an experienced <strong>florist in Glossop</strong>, we create heartfelt funeral arrangements tailored to honour your loved one’s memory. Based locally and serving surrounding areas including Hadfield, Simmondley, Gamesley, Charlesworth, Dinting, Tintwistle, and Padfield, our work reflects compassion, craftsmanship, and personal attention. This gallery showcases a selection of our recent funeral flower tributes, ranging from classic styles to more natural and rustic arrangements.</p>
+            <p>Whether you are looking for traditional sprays and wreaths or something more personal and bespoke, our gallery is here to offer inspiration and comfort during a difficult time. As a trusted <strong>florist in Glossop</strong>, we are committed to crafting meaningful tributes that reflect love, remembrance, and peace.</p>
+        </div>
+    </section>
+    <section class="gallery-page">
+        <div class="container">
+            <div class="gallery-page__inner">
+                <div class="row">
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003249/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.10_4da83f05_yk49nh.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(1)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003249/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.10_8e7bf8cf_lyfxyd.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(2)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003248/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.24_8a6da445_it9eyq.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(3)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003246/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.24_203692d7_pswvuh.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(4)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003246/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.10_8aff7f35_dgacnw.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(5)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003244/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.10_4009384d_xbgwcy.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(6)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003243/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.09_4e811a46_scixsc.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(7)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003243/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.09_90e4ff12_gzz0f0.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(8)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003242/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.09_6bc3ec8d_x30sud.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(9)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003242/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.08_674daf80_pfhroc.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(10)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003242/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.09_086fca80_tbkl4u.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(11)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003242/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.08_40f018f4_zgo3hj.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(12)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009093/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_4d8df650_cqooyp.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(13)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009093/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_8fb52c0d_ofjjl4.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(14)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009093/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_7c7bd7ed_pbeanj.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(15)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009093/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_9ac11a16_wpshw9.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(16)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009093/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_9f3e6a34_qqno2d.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(17)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009093/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_65ad8073_taedrh.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(18)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009094/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_87ccfb18_r0si8s.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(19)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009094/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_c00a7130_kibqvm.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(20)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009094/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_c00a7130_kibqvm.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(21)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009094/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_9935b75b_r4ldrd.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(22)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009095/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_d819fcee_i9gvjq.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(23)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009095/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_e082ccb3_nt4hgq.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(24)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009095/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_e845be9c_kyafnr.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(25)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009095/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_79905ddb_adnhun.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(26)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009096/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_2b044d82_tvulc0.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(27)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009102/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_3ff24e51_h0t3oh.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(28)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009104/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_3e146616_cwgf6q.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(29)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009094/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_79422b6e_qpfe2q.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(30)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009095/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_e0ef1e93_vt0u55.jpg" style="width:100%" onclick="openFuneralModal();currentFuneralSlide(31)" class="gallery-page__image hover-shadow cursor">
+                    </div>
+                </div>
+                <div id="FuneralModal" class="modal">
+                    <span class="close cursor" onclick="closeFuneralModal()">&times;</span>
+                    <div class="modal-content">
+                        <div class="FuneralSlides">
+                            <div class="numbertext">1 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003249/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.10_4da83f05_yk49nh.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">2 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003249/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.10_8e7bf8cf_lyfxyd.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">3 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003248/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.24_8a6da445_it9eyq.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">4 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003246/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.24_203692d7_pswvuh.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">5 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003246/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.10_8aff7f35_dgacnw.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">6 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003244/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.10_4009384d_xbgwcy.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">7 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003243/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.09_4e811a46_scixsc.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">8 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003243/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.09_90e4ff12_gzz0f0.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">9 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003242/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.09_6bc3ec8d_x30sud.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">10 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003242/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.08_674daf80_pfhroc.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">11 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003242/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.09_086fca80_tbkl4u.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">12 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753003242/Funeral%20Flowers/WhatsApp_Image_2025-07-10_at_12.14.08_40f018f4_zgo3hj.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">13 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009093/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_4d8df650_cqooyp.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">14 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009093/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_8fb52c0d_ofjjl4.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">15 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009093/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_7c7bd7ed_pbeanj.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">16 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009093/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_9ac11a16_wpshw9.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">17 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009093/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_9f3e6a34_qqno2d.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">18 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009093/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_65ad8073_taedrh.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">19 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009094/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_87ccfb18_r0si8s.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">20 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009094/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_c00a7130_kibqvm.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">21 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009094/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_9935b75b_r4ldrd.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">22 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009095/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_d819fcee_i9gvjq.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">23 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009095/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_e082ccb3_nt4hgq.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">24 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009095/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_e845be9c_kyafnr.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">25 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009095/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_bc7f6fbe_j6gmia.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">26 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009095/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_e0ef1e93_vt0u55.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">27 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009094/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_79422b6e_qpfe2q.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">28 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009095/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_79905ddb_adnhun.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">29 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009096/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_2b044d82_tvulc0.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">30 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009102/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_3ff24e51_h0t3oh.jpg" style="width:100%">
+                        </div>
+                        <div class="FuneralSlides">
+                            <div class="numbertext">31 / 31</div>
+                            <img src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1753009104/Funeral%20Flowers/WhatsApp_Image_2025-07-20_at_11.38.34_3e146616_cwgf6q.jpg" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusFuneralSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusFuneralSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+                <h2>A Range of Thoughtful Floral Tributes</h2>
+                <p>Every family and every farewell is unique. That’s why we offer a broad selection of funeral flowers to suit different tastes, personalities, and preferences. In this gallery, you’ll find examples of:</p>
+                <ul>
+                    <li><strong>Classic wreaths</strong> in soft whites, creams, and pastels</li>
+                    <li><strong>Casket sprays</strong> featuring seasonal blooms and elegant textures</li>
+                    <li><strong>Letter tributes</strong> spelling out cherished names or relationships</li>
+                    <li><strong>Posies and sheaves</strong> ideal for placing beside the coffin or graveside</li>
+                    <li><strong>Rustic arrangements</strong> with a natural, wildflower feel for a more personal touch</li>
+                </ul>
+                <p>We take time to understand each family’s wishes, working closely with you to select flowers, colours, and designs that feel right for the occasion. Whether you prefer something understated and simple, or a statement piece filled with symbolic blooms, <strong>Dragonflies Flowers</strong> is here to help.</p>
+                <h2>Your Local Florist in Glossop, Hadfield, Simmondley and Beyond</h2>
+                <p>We are proud to be a compassionate and creative <strong>florist in Glossop</strong>, and we also serve families throughout <strong>Hadfield</strong>, <strong>Simmondley</strong>, <strong>Gamesley</strong>, <strong>Charlesworth</strong>, <strong>Dinting</strong>, <strong>Tintwistle</strong>, and <strong>Padfield</strong>. We understand that arranging a funeral can be overwhelming, and we aim to ease the burden by offering gentle guidance and timely delivery of your floral tribute.</p>
+                <p>Our studio is always open to conversations — whether you need help choosing the right tribute or want to discuss a more bespoke idea. With years of experience in funeral floristry, we bring a personal touch to everything we do. It’s not just about flowers; it’s about capturing a memory, a moment, and a life well lived.</p>
+                <h2>Explore Our Funeral Flowers Gallery</h2>
+                <p>We invite you to browse through the images on this page, which reflect the care, skill, and attention that go into each and every arrangement we create. All designs are handcrafted using the freshest flowers, with options available in both traditional and natural styles.</p>
+                <p>You’ll see examples of:</p>
+                <ul>
+                    <li><strong>Roses, lilies, and chrysanthemums</strong> for timeless elegance</li>
+                    <li><strong>Seasonal and garden-style blooms</strong> for a rustic, homegrown feel</li>
+                    <li><strong>Greenery-rich designs</strong> for an eco-conscious or natural look</li>
+                    <li><strong>Custom tributes</strong> incorporating favourite colours or themes</li>
+                </ul>
+                <p>Each image tells a story of someone remembered with love, and we are honoured to have played a small role in those goodbyes.</p>
+                <p>If you are looking for a <strong>florist in Hadfield</strong>, <strong>florist in Simmondley</strong>, or a local funeral <strong>florist in Glossop</strong>, <strong>Gamesley</strong>, <strong>Charlesworth</strong>, <strong>Dinting</strong>, <strong>Tintwistle</strong>, or <strong>Padfield</strong>, please don’t hesitate to reach out. Our compassionate team is here to support you with kindness and professionalism.</p>
+                <h2>Get In Touch</h2>
+                <p>If something in this gallery speaks to you, or if you have a different vision in mind, we’d love to hear from you. Funeral flowers are deeply personal, and at <strong>Dragonflies Flowers</strong>, we’re here to ensure your tribute is just right.</p>
+                <p>You can contact us via phone, email, or our enquiry form to discuss your needs. We offer local delivery across <strong>Glossop</strong>, <strong>Hadfield</strong>, <strong>Simmondley</strong>, <strong>Gamesley</strong>, <strong>Charlesworth</strong>, <strong>Dinting</strong>, <strong>Tintwistle</strong>, <strong>Padfield</strong> and surrounding areas, and we’re always happy to advise with no obligation.</p>
+            </div>
+        </div>
+    </section>
+    <section class="green-section">
+        <div class="container">
+            <div class="row">
+                <section class="contact" ID="ContactForm">
+                    <script type="text/javascript" src="https://form.jotform.com/jsform/240306322074040"></script>
+                </section>
+            </div>
+        </div>
+    </section>
+    <section class="buffer"></section>
+    <footer class="footer">
+        <div class="footer__border">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__col">
+                        <a href="/">
+                            <img class="footer__logo" src="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1706462003/dragonflies-logo_1x_djp1rk.png" srcset="https://res.cloudinary.com/dbxnu1kgv/image/upload/v1706462003/dragonflies-logo_1x_djp1rk.png 1x, https://res.cloudinary.com/dbxnu1kgv/image/upload/v1706462003/dragonflies-logo_2x_jztsdv.png 2x" alt="Dragonflies Flower Shop Logo" />
+                        </a>
+                    </div>
+                    <div class="footer__col">
+                        <h3>Links</h3>
+                        <a href="/">Home</a>
+                        <a href="/gallery">Gallery</a>
+                        <a href="/contact-us">Contact Us</a>
+                    </div>
+                    <div class="footer__col">
+                        <h3>Follow Us</h3>
+                        <a href="https://www.facebook.com/profile.php?id=61555788974372">Facebook</a>
+                        <a href="https://www.instagram.com/dragonflies_florist.co.uk/">Instagram</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="copyright">
+                        <p>This website was made by my daughter</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section id="scripts">
+        <script src="/styles/less.js" type="text/javascript"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/less" ></script>
+        <script>
+            let FuneralSlideIndex = 1;
+        
+            function openFuneralModal() {
+                document.getElementById('FuneralModal').style.display = 'block';
+            }
+        
+            function closeFuneralModal() {
+                document.getElementById('FuneralModal').style.display = 'none';
+            }
+        
+            function plusFuneralSlides(n) {
+                showFuneralSlides(FuneralSlideIndex += n);
+            }
+        
+            function currentFuneralSlide(n) {
+                showFuneralSlides(FuneralSlideIndex = n);
+            }
+        
+            function showFuneralSlides(n) {
+                let i;
+                let FuneralSlides = document.getElementsByClassName('FuneralSlides');
+                if (n > FuneralSlides.length) { FuneralSlideIndex = 1 }
+                if (n < 1) { FuneralSlideIndex = slides.length }
+                for (i = 0; i < FuneralSlides.length; i++) {
+                    FuneralSlides[i].style.display = 'none';
+                }
+                FuneralSlides[FuneralSlideIndex - 1].style.display = 'block';
+            }
+        </script>
+    </section>
+  </body>
+</html>  

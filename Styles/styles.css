@@ -93,6 +93,24 @@ body h1 {
   text-decoration: underline;
   color: #F4D5C1;
 }
+.toplinks .dropdown-menu {
+  background-color: #5D655F;
+  color: #FFF;
+  text-align: center;
+  border-radius: 0;
+}
+.toplinks__dropdown-link {
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.toplinks__dropdown-link:hover,
+.toplinks__dropdown-link.active,
+.toplinks__dropdown-link:focus {
+  color: #FFF;
+  background-color: #39403b;
+}
 .banner {
   width: 100%;
   position: relative;
